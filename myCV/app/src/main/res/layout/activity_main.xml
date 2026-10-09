@@ -59,12 +59,21 @@
             >
 
             <TextView
+                android:id="@+id/my_cv"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/txt_my_cv"
                 android:textSize="16sp"
                 android:padding="20dp"
                 />
+
+            <SeekBar
+                android:id="@+id/seekBar"
+                style="@style/Widget.AppCompat.SeekBar.Discrete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="50"
+                android:progress="3" />
 
 
         </LinearLayout>
